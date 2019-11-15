@@ -1,0 +1,135 @@
+#switch .duct{
+	margin-top: 10px;
+}
+#switch .duct img{
+	display: inline-block;
+	margin-top: -3px;
+}
+#switch .duct a,
+#switch .duct span{
+	display: inline-block;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+}
+#switch .content .cont{
+	display: inline-block;
+	text-align: center;
+	background-color: lightgray;
+	height: 40px;
+	margin-top: 20px;
+}
+#switch .content .cont ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#switch .content .cont ul li{
+	float: left;
+}
+#switch .content .cont ul li a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+}
+#switch .content .cont ul li .active,
+#switch .content .cont ul li a:hover{
+	color: #DEB887;
+}
+#switch .content .conb .kg{
+	margin-top: 40px;
+}
+#switch .content .conb .kg img{
+	width: 360px;
+	height: 200px;
+}
+#switch .content .conb .kg .cc{
+	width: 820px;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+#switch .content .conb .kg .cc .title a{
+	color: #DEB887;
+	font-size: 16px;
+	padding: 6px;
+}
+#switch .content .conb .kg .cc .c{
+	text-indent: 2em;
+	text-align: justify;
+  text-justify: inter-ideograph;
+		display: -webkit-box;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 6;
+	  overflow: hidden;
+	font-size: 14px;
+	line-height: 22px;
+}
+#switch .content .center{
+  text-align: center;
+  margin-top: 40px;
+}
+#switch .content .center ul.pagination {
+    display: inline-block;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* text-align: center; */
+}
+#switch .content .center ul.pagination li {
+	display: inline;
+}
+#switch .content .center ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+#switch .content .center ul.pagination li a.active {
+    background-color: #DEB887;
+    color: white;
+    border: 1px solid #DEB887;
+}
+
+
+
+/*  新闻中心内容 */
+#switch_con .pro_con{
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+#switch_con .pro_con h4,
+#switch_con .pro_con p{
+	text-align: center;
+}
+#switch_con .pro_con p{
+	margin-bottom: 20px;
+}
+#switch_con .pro_con p span{
+	padding: 0 20px 0 20px;
+}
+#switch_con .pro_con div img{
+	margin-left :520px;
+}
+#switch_con .pro_con .p0{
+	text-indent: 2em;
+	text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 20px;
+}
+#switch_con .pro_con #p12{
+	width: 800px;
+	margin: 0 auto;
+}
+#switch_con .pro_con #p12 .p1,
+#switch_con .pro_con #p12 .p2{
+	width: 280px;
+	height: 20px;
+	line-height: 20px;
+		display: -webkit-box;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 1;
+	  overflow: hidden;
+  cursor: pointer;
+}

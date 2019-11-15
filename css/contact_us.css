@@ -1,0 +1,27 @@
+
+
+/* contact_us页内容 */
+#contact_us .duct img{
+	display: inline-block;
+	margin-top: -3px;
+}
+#contact_us .duct a,
+#contact_us .duct span{
+	display: inline-block;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	padding: 8px 0 0 4px;
+}
+#contact_us .con{
+	margin: 0 auto;
+}
+#contact_us .con_left{
+	margin: 20px;
+}
+#contact_us .con_left h4{
+	color: red;
+}
+#contact_us .con_left p{
+	padding: 3px 0 3px 0;
+}

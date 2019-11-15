@@ -1,0 +1,97 @@
+
+
+/* 窗帘 */
+#curtains .duct
+#curtains .duct img{
+	display: inline-block;
+	margin-top: -3px;
+}
+#curtains .duct a,
+#curtains .duct span{
+	display: inline-block;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	padding: 8px 0 0 4px;
+}
+
+
+#curtains .content{
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+}
+#curtains .content .ul{
+	border-bottom: 1px solid #DEB887;
+}
+#curtains .content .ul .li{
+	width: 126px;
+	height: 38px;
+	background-color: #DEB887;
+	margin-left: -40px;
+	text-align: center;
+}
+#curtains .content .ul .li .a{
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	height: 38px;
+	line-height: 38px;
+}
+#curtains .content .con{
+	height: 150px;
+	margin: 12px;
+}
+#curtains .content .con .contents img{
+	display: none;
+}
+#curtains .content .con .contents .show{
+	display: block;
+}
+#curtains .content .p{
+	margin-left: 14px;
+}
+#curtains .content p{
+	padding: 4px 0 4px 0;
+}
+#curtains .content .p1{
+	font-size: 18px;
+	color: red;
+}
+#curtains .content .img1{
+	margin-top: 4px;
+	margin-left: -28px;
+}
+#curtains .content .img1 img{
+	cursor: pointer;
+	float: left;
+	margin: 0 2px 0 2px;
+}
+
+
+
+/* 分页 */
+#curtains .content .center{
+  text-align: center;
+}
+#curtains .content .center ul.pagination {
+    display: inline-block;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* text-align: center; */
+}
+#curtains .content .center ul.pagination li {
+	display: inline;
+}
+#curtains .content .center ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+#curtains .content .center ul.pagination li a.active {
+    background-color: #DEB887;
+    color: white;
+    border: 1px solid #DEB887;
+}

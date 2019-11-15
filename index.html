@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新诚灯饰</title>
+  <meta name="Description" Content="">
+  <meta name="Keywords" Content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="script/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="script/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="images/x-icon" href="ico.ico">
+  <link rel="stylesheet" href="css/phone.css" type="text/css">
+  <link rel="stylesheet" href="css/pad.css" type="text/css" media="(min-width:768px)">
+  <link rel="stylesheet" href="css/pc.css" type="text/css" media="(min-width:992px)">
+  <link rel="stylesheet" href="css/bass.css" type="text/css">
+</head>
+<body>
+	<!-- 首页头部 -->
+	<div class="header">
+		<!-- 导航栏 -->
+		<div class="head">
+			<div class="nav gwidth">
+				<div class="logo fl pc_show phone_hide pad_hide"><img src="images/logo.png"></div>
+				<div class="logo fl pc_hide phone_show pad_hide"><img src="images/logo.png"></div>
+				<ul class="fr pc_show phone_hide pad_show	">
+					<li class="d active"><a href="index.html">首页</a></li>
+					<li class="d"><a href="product/product.html">家饰灯具</a></li>
+					<li class="d"><a href="curtains/curtains.html">窗帘样式</a></li>
+					<li class="d"><a href="switch/switch.html">新闻中心</a></li>
+					<li class="d"><a href="Contact_us/Contact_us.html">联系我们</a></li>
+					<li class="d"><a href="message/message.html">欢迎留言</a></li>
+					<li>
+						<form name="search" method="post" action="/souso.html">
+						  <input type="text" name="getsearch"  placeholder="请输入关键字">
+	            <button type="submit"></button>
+						</form>
+					</li>
+				</ul>
+				<div class="fr pc_hide phone_show pad_hide btn-group menu">
+				  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">菜单<span class="caret" style="margin-left:4px;"></span>
+				  </button>
+				  <ul class="dropdown-menu">
+				  	<li class="d active"><a href="index.html">首页</a></li>
+				  	<li class="d"><a href="product/product.html">家饰灯具</a></li>
+				  	<li class="d"><a href="curtains/curtains.html">窗帘样式</a></li>
+				  	<li class="d"><a href="switch/switch.html">新闻中心</a></li>
+				  	<li class="d"><a href="Contact_us/Contact_us.html">联系我们</a></li>
+				  	<li class="d"><a href="message/message.html">欢迎留言</a></li>
+				  </ul>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+			<script language="javascript" type="text/javascript">
+				$(document).ready(function (){
+				  $(".d").each(function(index){
+					  $(this).click(function(){
+						  $(".d").removeClass("active");
+						  $(".d").eq(index).addClass("active");
+					  });
+				  });
+				});
+			</script>
+		</div>
+
+		<!-- 轮播图 -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/lb1.jpg" alt="轮播1">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/lb2.jpg" alt="轮播2">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/lb3.jpg" alt="轮播3">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+	<!-- 首页内容 -->
+	<div id="content">
+		<div class="gwidth">
+			<!-- 产品部分 -->
+			<div class="con">
+				<h1>Product Center</h1>
+				<h2>产品中心</h2>
+			</div>
+			<div class="content clearfix">
+				<div class="fl c_img1">
+					<a href="">
+						<img src="images/d1.jpg">
+						<p>客厅灯</p>
+					</a>
+				</div>
+				<div class="fr c_img2">
+					<a href="">
+						<img src="images/d2.jpg">
+						<p>客厅灯</p>
+					</a>
+				</div>
+				<div class="fl c_img3">
+					<a href="">
+						<img src="images/d3.jpg">
+						<p>客厅灯</p>
+					</a>
+				</div>
+				<div class="fl c_img3 c3">
+					<a href="">
+						<img src="images/d4.jpg">
+						<p>客厅灯</p>
+					</a>
+				</div>
+				<div class="fr c_img3">
+					<a href="">
+						<img src="images/d5.jpg">
+						<p>客厅灯</p>
+					</a>
+				</div>
+			</div>
+			<div class="view">
+				<a href="product/product.html">查看更多>></a>
+			</div>
+		</div>
+		<div class="about gwidth">
+			<!-- 关于我们 -->
+			<div>
+				<h1>About us</h1>
+				<h2>关于我们</h2>
+			</div>
+			<div class="abo clearfix">
+				<div class="fl"><img src="images/about.jpg"></div>
+				<div class="fr ab">
+					<div class="a">
+						<a href="">
+							<p class="p1">新城灯饰</p>
+							<p class="p2">说得对公司近几十年后都会不得不从内心相机进行核实后是不是那你在那怎么怎么进行检查好吃不ueuiwnsns税款借款时间爱看手机阿里卡时间爱丽丝卡萨老师马克思马拉喀什吗骂什么了开幕式拉卡拉卡马拉开什么Sam凯莉米洛快没了快没了看没看里面了快没了昆明路口得对公司近几十年后都会不得不从内心相机进行核实后是不是那你在那怎么怎么进行检查好吃不ueuiwnsns税款借款时间爱看手机阿里卡时间爱丽丝卡萨老师马克思马拉喀什吗骂什么了开幕式拉卡拉卡马拉开什么Sam凯莉米洛快没了快没了看没看里面了快没了昆明路口</p>
+						</a>
+					</div>
+					<div class="view">
+						<a href="Contact_us/Contact_us.html">查看更多>></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="curtain">
+			<!-- 窗帘样品 -->
+			<div>
+				<h1>Curtain sample</h1>
+				<h2>窗帘样品</h2>
+			</div>
+				<div class="show">
+					<span class="span1">
+				    <input type="button" value="&lt;" id='left' disabled>
+				    <input type="button" value="&gt;" id='right'>
+			    </span>
+			    <span id="show">
+		        <ul id="list">
+	            <li><a href=""><img src="images/c1.jpg" alt="2"></a></li>
+	            <li><a href=""><img src="images/c2.jpg" alt="3"></a></li>
+	            <li><a href=""><img src="images/c3.jpg" alt="5"></a></li>
+	            <li><a href=""><img src="images/c4.jpg" alt="7"></a></li>
+	            <li><a href=""><img src="images/c5.jpg" alt="8"></a></li>
+		        </ul>
+			  	</span>
+				</div>
+				<div class="view">
+					<a href="curtains/curtains.html">查看更多>></a>
+				</div>
+				<script>
+				  var t1=null;
+				  var dir=-1;
+				  var leftBtn=document.getElementById('left');
+				  var rightBtn=document.getElementById('right');
+				  var list=document.getElementById('list');
+				  var listWidth=list.offsetWidth;
+				  list.innerHTML=list.innerHTML+list.innerHTML+list.innerHTML;
+				  list.style.width=list.offsetWidth*3+'px';
+				  leftBtn.onclick=function(){
+				      this.disabled=true;
+				      rightBtn.disabled=false;
+				      dir=-1;
+				  }
+				  rightBtn.onclick=function(){
+				      this.disabled=true;
+				      leftBtn.disabled=false;
+				      dir=1;
+				  }
+				  list.onmouseover=function(){
+				      clearInterval(t1);
+				  }
+				  list.onmouseout=function(){
+				      t1=setInterval(function(){
+				          var left=list.offsetLeft;
+				          left+=dir;
+				          if(left<-listWidth){
+				              left=0;
+				          }
+				          if(left>0){
+				              left=-listWidth;
+				          }
+				          list.style.left=left+'px';
+				      },10)
+				  }
+				  list.onmouseout();
+				</script>
+		</div>
+		<div class="news">
+			<!-- 新闻中心 -->
+			<div class="gwidth">
+				<h1>News Center</h1>
+				<h2>新闻中心</h2>
+			</div>
+			<div class="n_ul clearfix gwidth">
+				<ul>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+					<li>
+						<span class="fl img">
+							<span class="span1">9</span>
+							<span class="span2">2019.9</span>
+						</span>
+						<span class="fl p">
+							<h4>场上看的哪款军事科技封板我</h4>
+							<p>十多年操场上看的哪款军事科技封板我看行说的就是西山煤电多寻付军或多所付军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军大家聚聚军军军军军军军军军军军军军军军军军军军或或或或或或或或或或或或胡uuuuuuuuuuuu大家聚聚军军军军军军军军军军军</p>
+						</span>
+					</li>
+				</ul>
+				<div class="view">
+					<a href="switch/switch.html">查看更多>></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 小定位 -->
+		<div id="footer">
+		<div class="leftNav-item">
+			<ul>
+				<li>
+					<i class="fa fa-location-arrow"></i>
+					<a href="javascript:void(0)" class="rota">业务合作</a>
+				</li>
+				<li title="在线客服">
+					<i class="fa fa-comments-o"></i>
+					<a href="javascript:void(0)"class="rota">在线客服</a>
+				</li>
+				<li lay-data="img" data-fooc="images/wx.jpg">
+					<i class="fa fa-money"></i><a href="javascript:;" class="rota">小额打赏</a>
+				</li>
+				<li title="返回顶部" class="for-top">
+					<i class="fa fa-arrow-up"></i>
+					<a href="javascript:;" class="rota">去顶部</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="script/js/jquery.min.js"></script>
+		<script type="text/javascript" src="script/js/nav.js"></script>
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="foo gwidth">
+				<div class="fl">
+					<div class="WeChat fl">
+						<img src="images/wx.jpg">
+						<p>微信二维码</p>
+					</div>
+					<div class="service fl">
+						<div class="f1 fl">
+							<p class="p1">客服服务热线：</p>
+							<p class="p2">123-123-123</p>
+							<p class="p3">快快快：111111111</p>
+							<p class="p3">快快快：111111111</p>
+						</div>
+						<div class="f2 fl">
+							<p class="p1">周一至周五（8:00-21:00）</p>
+							<p class="p3">啧啧啧：22222222</p>
+						</div>
+						<hr>
+					</div>
+				</div>
+				<div class="fr ter">
+					<p>地址：XXXXXX</p>
+					<p>邮政编码：000000</p>
+					<p>客服邮箱：1212121</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		!function(){
+		function n(n,e,t){
+		return n.getAttribute(e)||t
+		}
+		function e(n){
+		return document.getElementsByTagName(n)
+		}
+		function t(){
+		var t=e("script"),o=t.length,i=t[o-1];
+		return{
+		l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",99)
+		}
+		}
+		function o(){
+		a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,
+		c=m.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight
+		}
+		function i(){
+		r.clearRect(0,0,a,c);
+		var n,e,t,o,m,l;
+		s.forEach(function(i,x){
+		for(i.x+=i.xa,i.y+=i.ya,i.xa*=i.x>a||i.x<0?-1:1,i.ya*=i.y>c||i.y<0?-1:1,r.fillRect(i.x-.5,i.y-.5,1,1),e=x+1;e<u.length;e++)n=u[e],
+		null!==n.x&&null!==n.y&&(o=i.x-n.x,m=i.y-n.y,
+		l=o*o+m*m,l<n.max&&(n===y&&l>=n.max/2&&(i.x-=.03*o,i.y-=.03*m),
+		t=(n.max-l)/n.max,r.beginPath(),r.lineWidth=t/2,r.strokeStyle="rgba("+d.c+","+(t+.2)+")",r.moveTo(i.x,i.y),r.lineTo(n.x,n.y),r.stroke()))
+		}),
+		x(i)
+		}
+		var a,c,u,m=document.createElement("canvas"),
+		d=t(),l="c_n"+d.l,r=m.getContext("2d"),
+		x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||
+		function(n){
+		window.setTimeout(n,1e3/45)
+		},
+		w=Math.random,y={x:null,y:null,max:2e4};m.id=l,m.style.cssText="position:fixed;top:0;left:0;z-index:"+d.z+";opacity:"+d.o,e("body")[0].appendChild(m),o(),window.onresize=o,
+		window.onmousemove=function(n){
+		n=n||window.event,y.x=n.clientX,y.y=n.clientY
+		},
+		window.onmouseout=function(){
+		y.x=null,y.y=null
+		};
+		for(var s=[],f=0;d.n>f;f++){
+		var h=w()*a,g=w()*c,v=2*w()-1,p=2*w()-1;s.push({x:h,y:g,xa:v,ya:p,max:6e3})
+		}
+		u=s.concat([y]),
+		setTimeout(function(){i()},100)
+		}();
+	</script>
+	<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+	<script>
+	    L2Dwidget.init({
+	        "model": {
+							/*其他可选的模型：
+	             黑猫：https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json
+	             萌娘：https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json
+	             白猫：https://unpkg.com/live2d-widget-model-tororo@1.0.5/assets/tororo.model.json
+	             狗狗：https://unpkg.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json
+	             小可爱：https://unpkg.com/live2d-widget-model-z16@1.0.5/assets/z16.model.json
+	             小可爱：https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json*/
+	            jsonPath: "https://unpkg.com/live2d-widget-model-z16@1.0.5/assets/z16.model.json",
+	            "scale": 1
+	        },
+	        "display": {
+	            "position": "right",
+	            "width": 100,
+	            "height": 200,
+	            "hOffset": 0,
+	            "vOffset": -46
+	        },
+	        "mobile": {
+	            "show": true,
+	            "scale": 0.5
+	        },
+	        "react": {
+	            "opacityDefault": 0.7,
+	            "opacityOnHover": 0.2
+	        }
+	    });
+	</script>
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
